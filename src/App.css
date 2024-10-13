@@ -1,0 +1,122 @@
+#page{
+  height: max( 100vh );
+  width: 100vw;
+  overflow-x: hidden;
+ 
+}
+input{
+  height: 40px;
+  width: 280px;
+  font-family: 'roboto';
+  padding-left: 10px;
+  font-size: 20px;
+
+  border:none;
+  outline: none;
+  background-color: transparent;
+}
+input::placeholder{
+  padding-left: 20px;
+  font-family: 'roboto';
+}
+#add{
+  background-color: orangered;
+  border-radius: 50%;
+
+  padding: 7px;
+  margin:0;
+  width: max-content;
+
+  border: none;
+height: 40px;
+display: flex;
+align-items: center;
+  border:1px solid white
+
+
+}
+
+
+#usr{
+  display: flex;
+  justify-content:center;
+  padding: 10px 2px;
+  align-items: center;
+  gap:20px;
+  background-color: rgba(255, 255, 255, 0.73);
+  width: max-content;
+  margin:10px auto;
+  border-radius: 10px;
+
+}
+
+#tile{
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px;
+  width: 340px;
+  margin:0 auto;
+  border-radius: 5px;
+  margin-top:10px;
+  font-family: "roboto";
+  transition: all 500ms ;
+
+}
+#tile button{
+  display: flex;
+  background-color: red;
+  padding:7px 8px;
+  border:none;
+  border-radius: 10px;
+
+}
+#text{
+
+  position: relative;
+  
+  
+}
+#txt{
+  position: relative;
+  padding:0 20px;
+  text-wrap: wrap;
+  word-break: break-all;
+}
+#line{
+  height: 4px;
+  
+  background-color: black;
+  position: absolute;
+  left:0vw;
+  bottom: 40%;
+  animation:load 1s forwards;
+
+}
+#edit{
+  border:1px solid black;
+}
+#btn-grp{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+#btn-grp>button{
+  color:white;
+}
+@keyframes load {
+  from{
+    width: 0%;
+  }
+  to{
+    width: 100%;
+  }
+  
+}
+
+#chk{
+  height: 20px;
+  width: 20px;
+  
+}
